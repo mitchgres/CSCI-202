@@ -1,9 +1,5 @@
-Mitchell M. Gresham -- Ivy Tech Community College
-
-CSCI 202 -- Data Structure
-
+--------------------------------------------------
 Chapter 17 Notes -- Queues
-
 --------------------------------------------------
 
 Queues are a FIFO (First In First Out) data structure

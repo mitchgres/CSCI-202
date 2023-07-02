@@ -1,9 +1,5 @@
-Mitchell Gresham -- Ivy Tech Community College
-
-CSCI 202 -- Data Structures
-
+-----------------------------------------------
 M03/M04 Searching & Sorting Algorithms
-
 -----------------------------------------------
 
 Each element in a data structure must be able to be
@@ -28,3 +24,16 @@ Sequential Search Algorithm -- Also known as a Linear Search
             shouldn't be searched with this algorithm.
     - Worst-Case: The element is at the end of the list and the
             whole list will needed to be searched
+
+Binary Search Algorithm -- Is very efficent as long as the list given
+    has already been sorted. It works by going to the middle of the list
+    and sees if the middle is less than or greater than the middle. If 
+    less than then go to the left, and if greater than then go to the
+    middle of the list to the right. The benefit is that each key comparison
+    will get rid of half of the rest of the list. Because the algorithm must
+    constantly get elements from the middle of a list it's best 
+    suited for array-based structures with random-access. The algorithm is 
+    base-two logarithmic in its growth pattern with increasing size. Since
+    two key comparison are made each iteration we can multiply this by two to
+    get a formula. 
+    - Formula for Preformance w/ Size (n): B(n) = 2log2(n)
