@@ -1,0 +1,30 @@
+Mitchell Gresham -- Ivy Tech Community College
+
+CSCI 202 -- Data Structures
+
+M03/M04 Searching & Sorting Algorithms
+
+-----------------------------------------------
+
+Each element in a data structure must be able to be
+able to be identified from all the other elements. 
+To identify these elements keys are used, key comparison
+is used to see how effective an algorithm is. It is the 
+number of times that the search item is compared to an 
+item in the list. 
+
+Sequential Search Algorithm -- Also known as a Linear Search 
+    it'll iterate through the list from front, to the back 
+    comparing the target - the search item - to the elements 
+    in the list. As mentioned, the number of key comparisons 
+    will determine the best-case, average-case, and worst-case 
+    for the algorithm. 
+    - Best-Case: The search element is the first element in the
+            list. Therefore, one key comparison is made. 
+    - Average-Case: Half of the list will needed to be searched
+            before the target can be found. Therefore half of the 
+            length of the list will be the number of key 
+            comparisons will be made. As a result large lists
+            shouldn't be searched with this algorithm.
+    - Worst-Case: The element is at the end of the list and the
+            whole list will needed to be searched
